@@ -1,78 +1,56 @@
-🎮 Blum-BOT
+# 🎮 Blum-BOT
 
-Selamat datang di Blum-BOT, asisten otomatis Anda untuk mengelola dan mengoptimalkan pengalaman Anda di platform Blum!
+## 🚀 Getting Started
 
-🌟 Fitur
+### Install
 
-🔄 Otomatis farming dan klaim saldo
+1. Clone this repository:
 
-🎯 Otomatis penyelesaian tugas
+   ```
+   git clone https://github.com/OneNov0209/Blum-BOT.git
+   ```
 
-🎁 Klaim hadiah harian
+2. Navigate to the folder:
 
-👥 Pengelolaan saldo teman
+   ```
+   cd Blum-BOT
+   ```
 
-🕹️ Bermain game dan pengumpulan hadiah otomatis
+3. Install npm:
 
-👤 Mendukung banyak akun
+   ```
+   npm install
+   ```
 
+4. Edit `data.txt` file in the project root and add your Blum query IDs, one per line.
 
-🚀 Memulai
+   ```
+   nano data.txt
+   ```
 
-Prasyarat
+### Usage
 
-Node.js (v12 atau lebih tinggi)
+Run the bot with:
 
-npm (sudah termasuk dalam Node.js)
-
-
-Instalasi
-
-1. Clone repositori ini:
-
-git clone https://github.com/AliAshgar/Blum-BOT.git
-
-
-2. Masuk ke direktori proyek:
-
-cd Blum-BOT
-
-
-3. Instal dependensi:
-
-npm install
-
-
-4. Edit file data.txt di root proyek dan tambahkan Blum query ID Anda, satu per baris.
-
-nano data.txt
-
-
-
-Penggunaan
-
-Jalankan bot dengan:
-
+```
 node main.js
+```
 
-Ikuti petunjuk untuk memulai proses otomatisasi.
+Follow the prompts to start the automation process.
 
-📝 Konfigurasi
+## 📝 Configuration
 
-Edit file data.txt untuk mengelola beberapa akun.
+- Edit the `data.txt` file to manage multiple accounts.
+- Adjust task completion and game playing strategies in the `main.js` file.
 
-Sesuaikan strategi penyelesaian tugas dan bermain game di file main.js.
+## 🔐 Security
 
+- Keep your `data.txt` file secure and never share your query IDs.
+- Use this bot responsibly and in accordance with Blum's terms of service.
 
-🔐 Keamanan
+## 🔗 Registration
 
-Jaga file data.txt Anda tetap aman dan jangan pernah membagikan query ID Anda.
+New to Blum? Register using our referral link:
 
-Gunakan bot ini secara bertanggung jawab dan sesuai dengan ketentuan layanan Blum.
+[Sign up for Blum](https://t.me/blum/app?startapp=ref_JPNeoWpHau)
 
-
-🔗 Pendaftaran
-
-Baru di Blum? Daftar menggunakan tautan referensi kami:
-
-Daftar Blum
